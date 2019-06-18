@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../assets/css/App.min.css";
 import axios from "axios";
 import SearchBar from "../components/SearchBar";
-import ImageCard from "../components/ImageCard";
+import ImageLists from "../components/ImageLists";
 class App extends Component {
   state = {
     searchKetword: "",
@@ -37,7 +37,7 @@ class App extends Component {
           handleChange={this.inputChangeHandler}
           handleSubmit={this.formSubmitHandler}
         />
-        <ImageCard images={this.state.imageData} />
+        <ImageLists images={this.state.imageData} />
       </div>
     );
   }
