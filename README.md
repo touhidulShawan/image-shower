@@ -1,1 +1,1 @@
-A image display app based on search keyword from learning Reactjs
+A image display app based on search keyword
